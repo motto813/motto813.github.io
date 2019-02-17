@@ -1,2 +1,2 @@
-# motto813.github.io
-My engineering profile page
+# My GitHub Page
+Contains my engineering profile
