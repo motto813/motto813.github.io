@@ -93,12 +93,16 @@ section.content div {
 }
 
 section.content p {
-  margin: inherit;
+  margin: 0;
 }
 
-.job-title {
+.position-title {
   display: flex;
   justify-content: space-between;
+}
+
+section.experience article {
+  padding-bottom: 20px;
 }
 
 section.experience h3 {
@@ -114,19 +118,10 @@ section.experience h4 {
   letter-spacing: 1px;
 }
 
-table.scenarios {
-  --border-spacing: 6px;
-
-  padding-top: 6px;
-  text-align: left;
-  border-spacing: var(--border-spacing);
-  margin: auto calc(0px - var(--border-spacing));
+.project ul {
+  margin: 0;
 }
 
-.constraints-col {
-  width: 40%;
-}
-
-table.scenarios td {
-  vertical-align: top;
+.project li:not(:last-of-type) {
+  padding-bottom: 4px;
 }

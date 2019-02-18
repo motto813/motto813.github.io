@@ -52,65 +52,78 @@
       <hr>
       <section class="experience content">
         <h2>Experience</h2>
-        <article>
-          <div class="job-title">
-            <h3>SnapMobile - Chicago, IL</h3>
-            <span>March 2018 - March 2019</span>
-          </div>
-          <h4>Software Engineer</h4>
-          <p>
-            I built and debugged apps for clients using the <a href="http://mean.io/">MEAN stack</a> with
-            <a href="https://ionicframework.com/">Ionic</a> for hybrid app deployment. Developing projects as the only
-            engineer gave me practical experience coding and communicating concepts for the full stack.
-          </p>
-          <hr>
-          <div class="project">
-            <h4>Project: <a href="http://www.vinesoftinc.com/">VineSoft</a></h4>
+        <div class="position-container">
+          <article>
+            <div class="position-title">
+              <h3>SnapMobile - Chicago, IL</h3>
+              <span>March 2018 - March 2019</span>
+            </div>
+            <h4>Software Engineer</h4>
             <p>
-              Built the app for monitoring and controlling a greenhouse in real-time from a mobile device
+              I built and debugged apps for clients using the <a href="http://mean.io/">MEAN stack</a> with
+              <a href="https://ionicframework.com/">Ionic</a> for hybrid app deployment. Developing projects as the only
+              engineer gave me practical experience coding and communicating concepts for the full stack.
             </p>
-            <table class="scenarios">
-              <tr>
-                <th class="constraints-col">Constraint</th>
-                <th>Solution</th>
-              </tr>
-              <tr>
-                <td>
-                  Design architecture using some AWS cloud products with the intention of an all-AWS architecture in a future version
-                </td>
-                <td>
-                  Used <a href="https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html">AWS IoT</a>
-                  platform for server-less management of the application state with consideration that AWS IoT
-                  pub/sub messages could be hooked into for further AWS integration
-                </td>
-              </tr>
-            </table>
-          </div>
-          <hr>
-          <div class="project">
-            <h4>Project: <a href="https://www.trackmyrouteapp.com/">Track My Route</a></h4>
+            <hr>
+            <div class="project">
+              <h4>Project: <a href="http://www.vinesoftinc.com/">VineSoft</a></h4>
+              <ul>
+                <li>
+                  Built the app for monitoring and controlling a greenhouse in real-time from a mobile device
+                </li>
+                <li>
+                  Designed architecture to be flexible for client's vision of increasing AWS integration by utilizing
+                  <a href="https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html">AWS IoT</a> platform
+                  for server-less management of the application state
+                </li>
+              </p>
+            </div>
+            <hr>
+            <div class="project">
+              <h4>Project: <a href="https://www.trackmyrouteapp.com/">Track My Route</a></h4>
+              <ul>
+                <li>
+                  Built the app which provides a ride-share-like interface for parents to track their children's school buses.
+                </li>
+                <li>
+                  Provided a robust beta version by using a set of automated integration tests to tune the bus tracking algorithm.
+                </li>
+                <li>
+                  Minimized recurring API calls to Google Directions and DistanceMatrix by leaning on back-end unit tests for a late-stage refactor
+                </li>
+              </ul>
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="position-title">
+              <h3>SPR Consulting - Chicago, IL</h3>
+              <span>November 2017 - March 2018</span>
+            </div>
+            <h4>Software Apprentice</h4>
             <p>
-              Built the app which provides a ride-share-like interface for parents to track their children's school buses
+              I was placed on two internal projects and started both having no experience with the frameworks. I learned to
+              balance my time spent researching in online resources with time spent stretching into writing code in order to
+              meet feature deadlines.
             </p>
-            <table class="scenarios">
-              <tr>
-                <th class="constraints-col">Constraint</th>
-                <th>Solution</th>
-              </tr>
-              <tr>
-                <td>
-                  Check edge cases for the algorithm determining bus stop completions without using a live bus
-                </td>
-                <td>
-                  Wrote a set of custom integration tests with <a href="https://mochajs.org/">Mocha.js</a> to simulate
-                  real-world scenarios by specifying consecutive bus position coordinates and calculating status using
-                  route data from a staging database
-                </td>
-              </tr>
-            </table>
-          </div>
-        </article>
+            <hr>
+            <div class="project">
+              <h4>Project: SPRout</h4>
+              <ul>
+                <li>
+                  Created pages for an Angular webapp to mimic existing mobile app features and a RESTful API as a microservice for
+                  a new feature
+                </li>
+                <li>
+                  Reduced inconsistent and long load times when "swiping" through images to rate by adding an endpoint to
+                  the Java Spring RESTful API and refactoring the webapp page to work in small batches
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
       </section>
+      <hr>
     </div>
   </div>
 </body>
