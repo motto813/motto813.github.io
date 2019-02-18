@@ -101,10 +101,6 @@ section.content p {
   justify-content: space-between;
 }
 
-section.experience article {
-  padding-bottom: 20px;
-}
-
 section.experience h3 {
   margin: 0;
   padding-bottom: 2px;
@@ -118,8 +114,14 @@ section.experience h4 {
   letter-spacing: 1px;
 }
 
+.project-container {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
 .project ul {
   margin: 0;
+  padding-left: 30px;
 }
 
 .project li:not(:last-of-type) {
