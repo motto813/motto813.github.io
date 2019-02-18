@@ -110,4 +110,23 @@ section.experience h3 {
 section.experience h4 {
   margin: 0;
   padding-bottom: 10px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+table.scenarios {
+  --border-spacing: 6px;
+
+  padding-top: 6px;
+  text-align: left;
+  border-spacing: var(--border-spacing);
+  margin: auto calc(0px - var(--border-spacing));
+}
+
+.constraints-col {
+  width: 40%;
+}
+
+table.scenarios td {
+  vertical-align: top;
 }

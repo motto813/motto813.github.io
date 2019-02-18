@@ -42,17 +42,17 @@
       <hr>
       <section class="profile content">
         <h2>Summary</h2>
-        <div>
+        <article>
           <p>
             My enjoyment in engineering grows as the constraints around a problem shrink. I am looking to join a team that gives
             engineers whatever tools they need to solve the nearly impossible on a regular basis.
           </p>
-        </div>
+        </article>
       </section>
       <hr>
       <section class="experience content">
         <h2>Experience</h2>
-        <div>
+        <article>
           <div class="job-title">
             <h3>SnapMobile - Chicago, IL</h3>
             <span>March 2018 - March 2019</span>
@@ -60,12 +60,56 @@
           <h4>Software Engineer</h4>
           <p>
             I built and debugged apps for clients using the <a href="http://mean.io/">MEAN stack</a> with
-            <a href="https://ionicframework.com/">Ionic</a> for hybrid app deployment. Owning the full
-            codebase allowed me opportunities to overcome any gaps in understanding by solving real-world problems. Participating in
-            project meetings as the only developing engineer gave me consistent practice communicating with non-technical team
-            members.
+            <a href="https://ionicframework.com/">Ionic</a> for hybrid app deployment. Developing projects as the only
+            engineer gave me practical experience coding and communicating concepts for the full stack.
           </p>
-        </div>
+          <hr>
+          <div class="project">
+            <h4>Project: <a href="http://www.vinesoftinc.com/">VineSoft</a></h4>
+            <p>
+              Built the app for monitoring and controlling a greenhouse in real-time from a mobile device
+            </p>
+            <table class="scenarios">
+              <tr>
+                <th class="constraints-col">Constraint</th>
+                <th>Solution</th>
+              </tr>
+              <tr>
+                <td>
+                  Design architecture using some AWS cloud products with the intention of an all-AWS architecture in a future version
+                </td>
+                <td>
+                  Used <a href="https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html">AWS IoT</a>
+                  platform for server-less management of the application state with consideration that AWS IoT
+                  pub/sub messages could be hooked into for further AWS integration
+                </td>
+              </tr>
+            </table>
+          </div>
+          <hr>
+          <div class="project">
+            <h4>Project: <a href="https://www.trackmyrouteapp.com/">Track My Route</a></h4>
+            <p>
+              Built the app which provides a ride-share-like interface for parents to track their children's school buses
+            </p>
+            <table class="scenarios">
+              <tr>
+                <th class="constraints-col">Constraint</th>
+                <th>Solution</th>
+              </tr>
+              <tr>
+                <td>
+                  Check edge cases for the algorithm determining bus stop completions without using a live bus
+                </td>
+                <td>
+                  Wrote a set of custom integration tests with <a href="https://mochajs.org/">Mocha.js</a> to simulate
+                  real-world scenarios by specifying consecutive bus position coordinates and calculating status using
+                  route data from a staging database
+                </td>
+              </tr>
+            </table>
+          </div>
+        </article>
       </section>
     </div>
   </div>
