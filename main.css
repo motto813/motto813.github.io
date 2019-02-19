@@ -75,13 +75,13 @@ section.header h2 {
 
 section.content {
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
 }
 
 section.content h2 {
   margin: inherit;
-  width: 180px;
+  width: 140px;
   flex: 0 0 auto;
   font-size: 20px;
   font-style: italic;
@@ -94,6 +94,20 @@ section.content div {
 
 section.content p {
   margin: 0;
+}
+
+section.skills table {
+  --horizontal-border-spacing: 24px;
+
+  border-spacing: var(--horizontal-border-spacing) 4px;
+  margin: 10px calc(0px - var(--horizontal-border-spacing)) auto;
+  text-align: left;
+}
+
+tr.headers th {
+  border-bottom: 1.5px solid var(--color-trolley-gray);
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 .position-title {
@@ -114,8 +128,7 @@ section.experience h4 {
   letter-spacing: 1px;
 }
 
-.project-container {
-  padding-left: 20px;
+.project {
   padding-top: 10px;
 }
 
