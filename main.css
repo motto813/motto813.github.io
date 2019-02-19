@@ -32,7 +32,7 @@ body {
 }
 
 .content-container {
-  width: 90%;
+  width: 86%;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -81,7 +81,7 @@ section.content {
 
 section.content h2 {
   margin: inherit;
-  width: 140px;
+  width: 148px;
   flex: 0 0 auto;
   font-size: 20px;
   font-style: italic;
@@ -97,10 +97,10 @@ section.content p {
 }
 
 section.skills table {
-  --horizontal-border-spacing: 24px;
+  --horizontal-border-spacing: 16px;
 
   border-spacing: var(--horizontal-border-spacing) 4px;
-  margin: 10px calc(0px - var(--horizontal-border-spacing)) auto;
+  margin: 8px calc(0px - var(--horizontal-border-spacing)) auto;
   text-align: left;
 }
 
@@ -139,4 +139,19 @@ section.experience h4 {
 
 .project li:not(:last-of-type) {
   padding-bottom: 4px;
+}
+
+section.education {
+  --side-margin: 10px;
+}
+
+section.education > div {
+  display: flex;
+  justify-content: space-between;
+  margin: auto calc(0px - var(--side-margin));
+}
+
+section.education article {
+  flex: 1 0 auto;
+  margin: auto var(--side-margin);
 }
