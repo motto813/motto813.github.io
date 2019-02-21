@@ -7,6 +7,16 @@ html {
   --color-pullman-green: #322e18;
 
   background-color: var(--color-trolley-gray);
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2,
+h3 {
+  font-size: 20px
 }
 
 a {
@@ -50,7 +60,6 @@ section.header h1 {
 
 section.header h2 {
   margin: 0;
-  font-size: 24px;
   letter-spacing: 1px;
   font-weight: normal;
 }
@@ -88,19 +97,15 @@ section.content h2 {
   font-weight: normal;
 }
 
-section.content div {
-  flex: 1 1 auto;
-}
-
 section.content p {
   margin: 0;
 }
 
 section.skills table {
-  --horizontal-border-spacing: 16px;
+  --horizontal-border-spacing: 24px;
 
   border-spacing: var(--horizontal-border-spacing) 4px;
-  margin: 8px calc(0px - var(--horizontal-border-spacing)) auto;
+  margin: 6px calc(0px - var(--horizontal-border-spacing)) auto;
   text-align: left;
 }
 
@@ -128,6 +133,10 @@ section.experience h4 {
   letter-spacing: 1px;
 }
 
+section.experience hr {
+  margin: 16px auto;
+}
+
 .project {
   padding-top: 10px;
 }
@@ -146,6 +155,7 @@ section.education {
 }
 
 section.education > div {
+  flex: 1 1 auto;
   display: flex;
   justify-content: space-between;
   margin: auto calc(0px - var(--side-margin));
