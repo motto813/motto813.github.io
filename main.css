@@ -1,8 +1,7 @@
 html {
   --color-light-gray: #cfccd6;
-  --color-light-steel-blue: #bbc2e2;
-  --color-maximum-blue-purple: #b7b5e4;
-  --color-spanish-gray: #a28f9d;
+  --color-smalt: #0a369d;
+  --color-russian-violet: #441151;
   --color-trolley-gray: #847979;
   --color-pullman-green: #322e18;
 
@@ -21,11 +20,11 @@ h3 {
 
 a {
   text-decoration: none;
-  color: var(--color-trolley-gray);
+  color: var(--color-smalt);
 }
 
 a:visited {
-  color: var(--color-spanish-gray);
+  color: var(--color-russian-violet);
 }
 
 body {
@@ -161,4 +160,10 @@ section.education hr {
 
 section.education article {
   flex: 1 0 auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.75;
 }
