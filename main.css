@@ -1,8 +1,7 @@
 html {
   --color-light-gray: #cfccd6;
-  --color-light-steel-blue: #bbc2e2;
-  --color-maximum-blue-purple: #b7b5e4;
-  --color-spanish-gray: #a28f9d;
+  --color-smalt: #0a369d;
+  --color-russian-violet: #441151;
   --color-trolley-gray: #847979;
   --color-pullman-green: #322e18;
 
@@ -21,11 +20,11 @@ h3 {
 
 a {
   text-decoration: none;
-  color: var(--color-trolley-gray);
+  color: var(--color-smalt);
 }
 
 a:visited {
-  color: var(--color-spanish-gray);
+  color: var(--color-russian-violet);
 }
 
 body {
@@ -52,22 +51,21 @@ section.title-block {
   justify-content: space-between;
 }
 
-section.header h1 {
-  margin: 0;
-  padding-bottom: 20px;
-  font-size: 36px;
-}
-
-section.header h2 {
-  margin: 0;
-  letter-spacing: 1px;
-  font-weight: normal;
-}
-
 .title-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.title-left h1 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.title-left h2 {
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: normal;
 }
 
 .title-right p {
@@ -133,7 +131,7 @@ section.experience h4 {
   letter-spacing: 1px;
 }
 
-section.experience hr {
+section.experience:not(.education) hr {
   margin: 16px auto;
 }
 
@@ -150,18 +148,22 @@ section.experience hr {
   padding-bottom: 4px;
 }
 
-section.education {
-  --side-margin: 10px;
-}
-
 section.education > div {
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: auto calc(0px - var(--side-margin));
+}
+
+section.education hr {
+  margin: 3px 16px;
 }
 
 section.education article {
   flex: 1 0 auto;
-  margin: auto var(--side-margin);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.75;
 }
